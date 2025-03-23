@@ -1,3 +1,4 @@
+#Xác định loại tam giác từ 3 cạnh nhập vào
 #Dùng hàm input() và hàm split() để nhận số đo ba cạnh a, b, c từ bàn phím.
 #Ép kiểu dữ liệu của a, b, c sang số thực để xử lý cho chính xác vì các giá trị nhận được từ hàm input() mặc định sẽ ở kiểu chuỗi.
 #Dùng cấu trúc rẽ nhánh if … else với điều kiện phù hợp để giải quyết yêu cầu của bải toán.
