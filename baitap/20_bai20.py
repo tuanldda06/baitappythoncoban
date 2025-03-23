@@ -1,3 +1,4 @@
+#Giải phương trình bậc hai 
 #Input :Gồm một dòng duy nhất chứa ba số a, b, c lần lượt là hệ số của phương trình ax2 + bx + c = 0, các hệ số cách nhau bởi khoảng trắng.
 #Output :Gồm nhiều dòng hiển thị tùy theo các trường hợp như sau:
 #Nếu phương trình vô nghiệm: Phuong trinh vo nghiem
