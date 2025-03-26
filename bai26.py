@@ -4,5 +4,17 @@
 #Lưu ý: 
 #Nếu a > b thì xuất thông báo: So thu nhat lon hon so thu hai!
 #Nếu input nằm ngoài định dạng đầu vào thì xuất thông báo: Dinh dang dau vao khong hop le!
-a = int(input('Nhap so dau tien : '))
-b = int(input('Nhap so thu 
+try :
+  a = int(input('Nhap so thu nhat la : '))
+  b = int(input('Nhap so thu hai la : '))
+  if a > b :
+    print('So thu nhat lon hon so thu hai!')
+  else :
+    tong = 0
+    for i in range(a , b+1) :
+      tong +=i
+      print(f'Tong cac chu so tu {a} den {b} la : {tong}')
+except :
+  print('Dinh dang dau vao khong hop le!')
+  
+
