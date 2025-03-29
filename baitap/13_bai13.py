@@ -15,5 +15,5 @@ try :
     with open ('Bai1.12.out' ,'r') as fileOut :
         print(fileOut.read())
 except FileNotFoundError :
-    print('Khong tim thay input!')
+    print('Khong thay input!')
       
