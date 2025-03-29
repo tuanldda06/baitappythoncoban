@@ -13,5 +13,5 @@ with open ('bai1.10.out' ,'w') as fileOut:
     fileOut.write(danhsachhoanchinh)
 with open('bai1.10.out','r') as fileOut :
     a= fileOut.read()
-    print(a) 
+ 
 #Phải code từ 5 đến 7 trước để lưu được dữ liệu vào file 'bai1.10.inp'
