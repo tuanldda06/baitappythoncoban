@@ -3,3 +3,4 @@ a = input('Nhap day so can tinh la:')
 b = list(map(int,a.split()))
 tongdayso = sum(b)
 print(b)
+#map dùng để ép kiểu dữ liệu 
