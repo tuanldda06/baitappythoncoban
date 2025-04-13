@@ -41,6 +41,6 @@ except :
     thongbao = 'Dinh dang dau vao khong hop le'
 with open ('bai23.out','w') as fileOut :
     fileOut.write(thongbao)
-with open('bai23.out','r') as fileOut :
+ open('bai23.out','r') as fileOut :
     print(fileOut.read())
 
