@@ -33,7 +33,7 @@ try :
                     thongbao ='Phuong trinh vo nghiem'
             else :
                 thongbao = 'Phuong trinh co nghiem duy nhat : \nx = {}'.format(-b/a)
-         dongdautien == '2':
+        if dongdautien == '2':
             dongthuhai = fileInp.readline()
             a,b,c = map(float , dongthuhai.split())
             if a== 0 :
