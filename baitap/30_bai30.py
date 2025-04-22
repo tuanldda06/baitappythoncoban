@@ -1,4 +1,5 @@
 #Viết chương trình hiển thị ra màn hình tam giác số kích thước n theo mẫu. Với n là số tự nhiên từ 1 đến 9 nhập từ bàn phím.try:
+#Bài này là tam giác thuận(tăng dần)
 #Sử dụng cấu trúc Xử lý ngoại lệ để xử lý các trường hợp gây ra lỗi
 #Đặt toàn bộ chương trình trong khối try.
 #Dùng hàm input() để nhập giá trị n từ bàn phím.
@@ -17,8 +18,8 @@ try :
 
             print("Đang ở dòng:", hang)
             for cot in range(1,hang+1):#Dùng để in ra từng số trong mỗi hàng hay cot: đại diện cho các số được in ra trong mỗi dòng
-                print(cot , end = ' ')
-            print()
+                print(cot , end = ' ')#vòng lặp cột – lồng bên trong mỗi dòng.
+            print()# Nếu bạn muốn mỗi dòng số được in ra nằm trên một dòng riêng biệt → bạn bắt buộc phải có print() sau vòng lặp bên trong.
 except ValueError :
     print('Dinh dang dau vao khong hop le')
 # Lồng for để t/m yêu cầu bài toán

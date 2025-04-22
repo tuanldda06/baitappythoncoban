@@ -1,5 +1,5 @@
 #Tính tổng các số nguyên trong khoảng a đến b. (Vòng lặp for)
-#ử dụng cấu trúc Xử lý ngoại lệ để xử lý các trường hợp gây ra lỗi
+#Sử dụng cấu trúc Xử lý ngoại lệ để xử lý các trường hợp gây ra lỗi
 #Đặt toàn bộ chương trình trong khối try.
 #Dùng hàm input() để nhập hai giá trị a, b từ bàn phím.
 #Chuyển hai giá trị mới nhận được sang kiểu số nguyên, vì các giá trị nhận được từ hàm input() mặc định sẽ ở kiểu chuỗi.
@@ -21,6 +21,6 @@ try :
         print(tong)
 except:
     print('Dinh dang dau vao khong hop le')
-    
+
         
 
