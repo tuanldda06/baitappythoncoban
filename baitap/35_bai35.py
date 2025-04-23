@@ -23,6 +23,5 @@ try :
             n = n // 10
         print(soDaonguoc)
 
-        
 except ValueError :
     print('Dinh dang dau vao khong hop le')
