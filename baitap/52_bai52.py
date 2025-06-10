@@ -18,7 +18,7 @@ def kiemtraso(n) :
         if xuly(a) :
             print(a, end = ' ')
 n = input()
-kiemtraso(n)
+kiemtraso(n) # do đề bài yêu cầu liệt kê các số hoàn thiện
 #Cú pháp return tong == n:
 #tong == n là một biểu thức so sánh, trả về giá trị boolean (True hoặc False).
 #Nếu tong bằng n, biểu thức trả về True.
