@@ -1,6 +1,6 @@
 #Viết hàm tính n giai thừa (n!). Với tham số là số tự nhiên n.
 def giaithua(n):
-    if s == 1 :
+    if n == 1 :
         return 1
     else :
         return n * giaithua(n-1)

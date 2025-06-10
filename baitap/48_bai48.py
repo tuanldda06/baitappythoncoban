@@ -1,5 +1,4 @@
 #Dinh nghia ham
-
 #tuyChon == 0: tinh tong cac chu so chan
 #tuyChon == 1: tinh tong cac chu so le
 def tong_chu_so(soTuNhien, tuyChon):
