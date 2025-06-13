@@ -3,7 +3,7 @@ def xuly(s):
     tong = 0
     dem = 0
     for c in s :
-        if c.isdigit :
+        if c.isdigit() :
             dem +=1
             tong +=int(c)
         if dem == 0 :
