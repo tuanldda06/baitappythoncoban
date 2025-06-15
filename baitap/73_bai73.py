@@ -9,7 +9,7 @@ def xuly(n):
     else :
         sotunhien =[]
         binhphuong = []
-        for i in n :
+        for i in range(n) :
             sotunhien.append(i)
             binhphuong.append(i*i)
         return sotunhien , binhphuong
