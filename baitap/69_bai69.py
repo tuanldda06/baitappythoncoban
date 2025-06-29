@@ -18,6 +18,6 @@ s = input()
 xuly(s)
 #end='' → in xong không xuống dòng.
 
-end=' ' → in xong xuống dòng bằng 1 dấu cách.
+#end=' ' → in xong xuống dòng bằng 1 dấu cách.
 
-end='\n' (mặc định) → in xong xuống dòng mới.
+#end='\n' (mặc định) → in xong xuống dòng mới.
