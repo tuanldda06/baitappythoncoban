@@ -14,3 +14,7 @@ else :
         print(sonhonhatt)
     except:
         print('Vui long nhap so thuc')
+#Mục đích của sonhonhat = danhsach[0] là nó sẽ gán phần tử đầu tiên của danhsach cho biến là sonhonhat
+#Ở đây do so sánh ở dạng là số nguyên , ta cũng không thế gán cho sonhonhat = 0 được 
+#Bởi vì nếu hàm chỉ chứa các số nguyên dương lớn hơn 0 , thì hàm sẽ trả về 0 , điều đó vô lý
+#VD : hàm là 1 2 3 5 99 thì khi gán sonhonhat = 0 thì kq sẽ trả về 0 , tuy nhiên trong hàm số nhỏ nhất là 1 ( vô lý--> do đó phải gán)
