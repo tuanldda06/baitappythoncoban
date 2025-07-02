@@ -19,7 +19,6 @@ print(xuly(s))
 def xuly(s) :
     dem = 0
     for tu in s.split() :# nếu không có split() thì nó sẽ duyệt cả khoảng trắng, ở đây yêu cầu xét từng kí tự
-       
        coso = 0
        cochu = 0
        for c in tu :
