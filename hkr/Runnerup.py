@@ -4,3 +4,11 @@
 danhsach = list(map(int , input().split())
 dsach = []
 for i in danhsach : 
+  if i not in dsach :
+    dsach += i
+dsach.sort(reverse = True)
+print(danhsach[1])
+#Cú pháp:danhsach.sort(reverse=False)
+#reverse: Là tham số tùy chọn, mặc định là False.
+#Nếu reverse=False (hoặc không chỉ định): Sắp xếp tăng dần (nhỏ → lớn).
+#Nếu reverse=True: Sắp xếp giảm dần (lớn → nhỏ).
