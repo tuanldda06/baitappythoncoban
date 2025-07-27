@@ -5,4 +5,14 @@ def xuly(danhsachso) :
   dsvitri=[vt for vt in (0,len(danhsach)) if danhsachso[vt] == giatri]
   danhsach = input().split()
   if len(danhsach) == 0 :
+    print('Danh sach rong')
+  else :
+    try :
+      danhsachso = list(map(float,danhsach))
+      giaTri, soLuong, dsViTri = xuly(danhsachso)
+      print(giaTri)
+      print(soLuong)
+      print(*dsViTri)
+    except :
+      print('Dinh dang dau vao khong hop le')
     
