@@ -22,6 +22,13 @@ if len(dsTen) != len(dsQuocTich):
 else:   
    #Goi ham va truyen cac tham so can thiet
    in_danh_sach(dsTen, dsQuocTich)
-  
-  
+#Bước 1: Người dùng nhập chuỗi, ví dụ: "John , Mary Jane,Alice". Hàm split(",") tách thành danh sách: ["John ", " Mary Jane", "Alice"]. Các phần tử vẫn có thể chứa khoảng trắng thừa.
+#Bước 2: Trong in_danh_sach, hàm xoa_khoang_trang_thua được áp dụng cho từng phần tử qua list comprehension:
+#"John " → xoa_khoang_trang_thua("John ") → "John".
+#" Mary Jane" → xoa_khoang_trang_thua(" Mary Jane") → "Mary Jane".
+#Kết quả: Danh sách sau làm sạch là ["John", "Mary Jane", "Alice"], sẵn sàng để ghép cặp với danh sách quốc tịch và in ra.
+# Tại sao cần hai lần split()?
+#Lần 1 (split(",")): Tách chuỗi đầu vào lớn thành danh sách các phần tử (tên hoặc quốc tịch). Mỗi phần tử vẫn có thể chứa khoảng trắng thừa.
+#Lần 2 (split() trong xoa_khoang_trang_thua): Làm sạch từng phần tử bằng cách tách nó thành các từ (loại bỏ khoảng trắng thừa) và nối lại với một khoảng trắng duy nhất.
+#Nếu chỉ dùng split(",") mà không có xoa_khoang_trang_thua, các phần tử như " Mary Jane" sẽ giữ nguyên khoảng trắng thừa, dẫn đến đầu ra không đẹp hoặc không đúng yêu cầu (ví dụ: " Mary Jane - Canada").
 
