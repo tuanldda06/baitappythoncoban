@@ -5,7 +5,7 @@ def xuly(danhsach) :
     if danhsach.count(a) == 1 :
       phantu.append(a)
   return phantu
-danhsach = input().split()Nhập chuỗi và tách ngay thành danh sách
+danhsach = input().split()#Nhập chuỗi và tách ngay thành danh sách
 if len(danhsach) == 0 :
   print('Danh sach rong')
 else :
