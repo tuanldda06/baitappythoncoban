@@ -4,6 +4,7 @@ def xuly(danhsach):
     for so in danhsach :
         if so < sonhonhat :
             sonhonhat = so
+    return sonhonhat
 danhsach = input().split()
 if len(danhsach) == 0 :
     print('Danh sach rong')
